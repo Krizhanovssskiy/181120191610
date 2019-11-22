@@ -1,0 +1,17 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="icon-heart" viewBox="0 0 510 510">
+            <title>heart</title>
+            <path d="M255,489.6l-35.7-35.7C86.7,336.6,0,257.55,0,160.65C0,81.6,61.2,20.4,140.25,20.4c43.35,0,86.7,20.4,114.75,53.55
+			C283.05,40.8,326.4,20.4,369.75,20.4C448.8,20.4,510,81.6,510,160.65c0,96.9-86.7,175.95-219.3,293.25L255,489.6z"/>
+        </symbol>
+        <symbol id="icon-review" viewBox="0 0 13 14">
+            <title>review</title>
+            <path fill="#b3b3b3" d="M1-.001h11a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-2v3.75l-3.75-3.75H1a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/>
+            <path fill="#73b4d5" d="M1-.001h11a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-2v3.75l-3.75-3.75H1a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/>
+            <path fill-opacity=".3" d="M0 14V7.021A1 1 0 0 0 1 8h5.25l3.75 3.75v-3.75h2a1 1 0 0 0 1-1v-7A1 1 0 0 0 12.047-1H13v15zM0-1h.953A1 1 0 0 0 0-.023zm1-.001L.953-1h11.094L12-1.001zm-1 1v7.022-7.044.022z" filter="url(#qpkrc)" mask="url(&quot;#qpkrd&quot;)"/>
+        </symbol>
+    </defs>
+</svg>

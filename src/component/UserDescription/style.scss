@@ -1,0 +1,23 @@
+@import "../../scss/mixin";
+
+.UserDescription {
+  &__profession {
+    font-family: var(--font-primary-bold);
+    font-size: var(--font-size-12);
+    color: var(--color-grey-1);
+    padding: 5px 0;
+  }
+  &__description {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: -50px;
+
+    padding: 10px 5px 10px 50px;
+    box-shadow: 0 0 0 1px rgba(60, 44, 0, 0.25);
+    background-color: #fffbc8;
+    border-radius: 4px;
+    @include respond(miobile-l) {
+      margin-left: 0;
+    }
+  }
+}

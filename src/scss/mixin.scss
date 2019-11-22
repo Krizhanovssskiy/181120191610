@@ -1,0 +1,26 @@
+
+@mixin centering-children {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@mixin respond ($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 720px) {
+      @content;
+    }
+  }
+  @if $breakpoint == miobile-l {
+    @media only screen and (max-width: 550px) {
+      @content;
+    }
+  }
+  @if $breakpoint == mobile-m {
+    @media only screen and (max-width: 450px) {
+      @content;
+    }
+  }
+
+}

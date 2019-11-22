@@ -1,0 +1,3 @@
+export const GET_ALL_SERVICES = 'GET_ALL_SERVICES';
+
+export const ADDED_REVIEW = 'ADDED_REVIEW';

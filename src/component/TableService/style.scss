@@ -1,0 +1,80 @@
+.Service {
+  width: 100%;
+
+  &-background {
+    width: 100%;
+    position: relative;
+    padding: 5px 0;
+    &:not(:last-child) {
+      margin-bottom: 2px;
+    }
+    span {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      border-radius: 2px;
+      opacity: 0.5;
+    }
+    p {
+      padding-left: 5px;
+    }
+  }
+  &-green {
+    right: 20%;
+    background: rgba(60, 179, 5, 0.5);
+  }
+  &-blue {
+    right: 60%;
+    background: var(--color-blue-2);
+  }
+
+
+  &-nameTotalText {
+    color: var(--color-black-2);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-13);
+    font-weight: 400;
+    line-height: 15px;
+    z-index: 4;
+  }
+
+  &-body {
+    border-left: 2px solid var(--border-color);
+    p {
+      line-height: 26px;
+    }
+  }
+
+  .App__big-text {
+    padding: 15px 0;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-header {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 15px;
+    p {
+      padding: 15px 0;
+    }
+  }
+
+
+  &-footer {
+    border-top: 1px solid var(--border-color);
+    margin-top: 15px;
+  }
+
+  li:first-child {
+    justify-content: flex-end;
+  }
+
+  &-boxTotal {
+    min-width: 50px;
+    text-align: center;
+  }
+}

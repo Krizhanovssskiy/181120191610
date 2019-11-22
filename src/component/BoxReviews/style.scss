@@ -1,0 +1,61 @@
+@import '../../scss/mixin';
+
+.ReviewsBox {
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+
+    @include respond(mobile-m) {
+      flex-wrap: wrap;
+    }
+
+    &-boxText {
+      display: flex;
+
+      @include respond(mobile-m) {
+        margin-bottom: 15px;
+      }
+    }
+
+    .App__middle-text {
+      margin-left: 10px;
+      color: var(--color-blue-1);
+      cursor: pointer;
+      text-decoration: underline;
+      @include respond(mobile-m) {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__counter, &__counter-likes, &__counter-rivers {
+    display: flex;
+  }
+
+  &__counter-likes, &__counter-rivers {
+    svg {
+      width: 13px;
+      height: 13px;
+      margin-right: 5px;
+      fill: var(--color-blue-3);
+    }
+    span {
+      font-size: 12px;
+    }
+  }
+
+  &__counter-likes {
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+
+
+
+
+
+}
